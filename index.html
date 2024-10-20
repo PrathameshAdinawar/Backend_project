@@ -12,34 +12,20 @@
     <link rel="stylesheet" href="script.js">
     <title>Document</title>
 </head>
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
-        <ul class="w-75 d-lg-flex justify-content-between">
-            <li class="nav-item">
-                <a class="nav-link active font text-light" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font" href="#">Pricing</a>
-            </li>
-            <li class="nav-item dropdown font">
-                <a class="nav-link dropdown-toggle font" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Dropdown link
-                </a>
-                <ul class="dropdown-menu font">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </li>
-        </ul>
+    <div class="offcanvas-body d-block">
+        <input type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+        <label class="btn" for="option5">Checked</label>
+
+        <input type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+        <label class="btn" for="option6">Radio</label>
+
+        <input type="radio" class="btn-check" name="options-base" id="option8" autocomplete="off">
+        <label class="btn" for="option8">Radio</label>
     </div>
 </div>
 
@@ -65,8 +51,9 @@
                         class="navimg "></a>
             </div>
             <div class="d-lg-none">
-                <button class="btn btn-primary w-100" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">T</button>
+                <button class="btn w-100 bg-transparent " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img
+                        src="./images/illustrations/hbg.png" alt=""></button>
             </div>
             <div class="col-lg-4  d-lg-inline-flex justify-content-center d-none gap-4 ">
                 <a class="nav-link active font text-light" aria-current="page" href="#">Home</a>
@@ -82,7 +69,8 @@
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul></section>
+                    </ul>
+                </section>
             </div>
 
 
@@ -91,26 +79,112 @@
         </div>
     </nav>
 
+
+    <!-- Hero Page -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide1">
 
+            <div class="swiper-slide slide1">
+                <div class="dark w-100 h-100 ">
+                    <div class="herotxt">
+                        <h4 class="font heroh4 pb-3">$986,00</h4>
+                        <h3 class="font heroh3 pb-2">Studio on Grand Avenue</h3>
+                        <p class="font herop pb-3">3 Beds-2 Baths-1500 sq ft</p>
+                        <button type="submit " class="btn fourth font mx-auto my-auto fs-6">
+                            View Details <span class="ps-1 ">&nearr;</span>
+                        </button>
+                    </div>
+                </div>
             </div>
             <div class="swiper-slide slide2">
-
+                <div class="dark w-100 h-100 ">
+                    <div class="herotxt">
+                        <h4 class="font heroh4 pb-3">$986,00</h4>
+                        <h3 class="font heroh3 pb-2">Studio on Grand Avenue</h3>
+                        <p class="font herop pb-3">3 Beds-2 Baths-1500 sq ft</p>
+                        <button type="submit " class="btn fourth font mx-auto my-auto fs-6">
+                            View Details <span class="ps-1 ">&nearr;</span>
+                        </button>
+                    </div>
+                </div>
             </div>
             <div class="swiper-slide slide3">
-
+                <div class="dark w-100 h-100 ">
+                    <div class="herotxt">
+                        <h4 class="font heroh4 pb-3">$986,00</h4>
+                        <h3 class="font heroh3 pb-2">Studio on Grand Avenue</h3>
+                        <p class="font herop pb-3">3 Beds-2 Baths-1500 sq ft</p>
+                        <button type="submit " class="btn fourth font mx-auto my-auto fs-6">
+                            View Details <span class="ps-1 ">&nearr;</span>
+                        </button>
+                    </div>
+                </div>
             </div>
             <div class="swiper-slide slide4">
-
+                <div class="dark w-100 h-100 ">
+                    <div class="herotxt">
+                        <h4 class="font heroh4 pb-3">$986,00</h4>
+                        <h3 class="font heroh3 pb-2">Studio on Grand Avenue</h3>
+                        <p class="font herop pb-3">3 Beds-2 Baths-1500 sq ft</p>
+                        <button type="submit " class="btn fourth font mx-auto my-auto fs-6">
+                            View Details <span class="ps-1 ">&nearr;</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="swiper-button-next text-light"></div>
-        <div class="swiper-button-prev text-light"></div>
+        <div class="d-flex justify-content-center swpbtns ">
+            <div class="swiper-button-next text-light swpbtn1"></div>
+            <div class="swiper-button-prev text-light swpbtn2"></div>
+        </div>
         <div class="swiper-pagination text-light"></div>
     </div>
 
+
+
+<!-- 2nd Section -->
+    <div class="space p-5"></div>
+    <div class="d-lg-flex justify-content-around ps-5 pe-5 s2">
+        <div class="col-5">
+            <h1 class="font text-dark">Simplify Your Home Buying And Renting Experience Smooth</h1>
+        </div>
+        <div class="col-5">
+            <p class="font text-dark">Discover a seamless way to buy, sell, or rent your home with us. Our user-friendly
+                platform is designed to make your real estate journey effortless and enjoyable.</p>
+            <div class=" d-flex justify-content-start gap-2">
+                <button type="submit" class="font p-2 s2btn1">Explore</button>
+                <button type="submit" class="font p-2 s2btn2">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="space p-5"></div>
+
+
+<!-- 3rd Section -->
+    <div class="space p-3"></div>
+    <div class="s3 d-md-flex justify-content-around ps-5 pe-5">
+        <div class="col-5 d-flex justify-content-center my-auto">
+            <div>
+                <h1 class="font text-dark">Discover the Simplest Way to Buy, Sell, or Rent Your Home</h1>
+                <p class="font text-dark">Our platform streamlines the buying, selling, and renting process, making it
+                    accessible to everyone. Enjoy a user-friendly experience that saves you time and effort while
+                    connecting you with your dream home.</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center col-5">
+            <img src="./images/bgimg/KHOB.png" alt="" class="s3img p-3">
+        </div>
+    </div>
+    <div class="space p-5"></div>
+
+
+
+    <div class="space p-3"></div>
+    <div class="s3">
+        <p class="font text-dark text-center">Simplify</p>
+        <h1 class="font text-dark text-center">Your Home Journey Starts Here</h1>
+        <p class="font text-dark text-center fw-normal">Experience seamless buying, selling, and renting of homes.</p>
+    </div>
 
 
 
