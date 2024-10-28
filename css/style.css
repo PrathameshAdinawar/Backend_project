@@ -66,14 +66,20 @@
 }
 
 .swiper {
-    width: 100%;
-    height: 85vh;
+    
   }
+.swp1{
+  width: 100%;
+    height: 85vh;
+}
 
 .swiper-slide {
-    background-position: center;
-    background-size: cover;
+    
   }
+.swpslide{
+  background-position: center;
+    background-size: cover;
+}
 
   .slide1{
     background-image: url(../images/bgimg/home-5-1.jpg);
@@ -109,7 +115,11 @@
 .herotxt{
   position: relative;
   top: 38%;
-  left: 18%;
+  left: 15%;
+}
+
+.herobtn-a{
+  width: 300px;
 }
 
 .heroh4{
@@ -162,24 +172,6 @@
   transition: all .5s ease;
 }
 
-
-
-.swpbtn1{
-  border: 2px solid rgb(238, 231, 231);
-  size: 10px;
-  padding: 30px;
-  border-radius: 50%;
-  right: 5%;
-}
-
-.swpbtn2{
-  border: 2px solid rgb(224, 215, 215);
-  size: 10px;
-  padding: 30px;
-  border-radius: 50%;
-  left: 5%;
-}
-
 .s3 h1{
   font-size: 42px;
   font-weight: 600;
@@ -191,7 +183,192 @@
 }
 
 .s3img{
- width: 80%;
+ width: 100%;
+}
+
+.s3 h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.s3btn1{
+  width: 120px;
+  transition: all .5s ease;
+  color: black;
+  background-color: white;
+  font-size:small;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+.s3btn1:hover{
+  background-color: black;
+  color: white;
+  transition: all .5s ease;
+}
+
+.s3 a{
+  font-size: small;
+  font-weight: 400;
+}
+.cd1bkg{
+  background-image: url("../images/illustrations/SIMPLE.svg");
+  width: 100%;
+  height: 320px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cd2bkg{
+  background-image: url("../images/illustrations/affordable.svg");
+  width: 100%;
+  height: 300px;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cd3bkg{
+  background-image: url("../images/illustrations/transact.svg");
+  width: 100%;
+  height: 290px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imgsignup{
+  background-image: url("../images/illustrations/signup.svg");
+  width: 100%;
+  height: 320px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.brwlist{
+  background-image: url("../images/illustrations/Browselisting.svg");
+  width: 100%;
+  height: 320px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deal{
+  background-image: url("../images/illustrations/deal.svg");
+  width: 100%;
+  height: 320px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swip2 {
+  width: 100%;
+  height: 250px;
+}
+
+.swipslide2 {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.swpbtn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.wrapper {
+  max-width: 75%;
+  margin: auto;
+  transition: all 0.2s ease;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+}
+
+.wrapper > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px ;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+  transition: transform 0.5s ease; /* Smooth rotation */
+}
+
+.accordion.active i {
+  transform: rotate(180deg); /* Rotate icon 360 degrees */
+}
+
+.active,
+.accordion:hover {
+  background-color: white;
+}
+
+.pannel {
+  padding: 5px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.4s ease-out, padding 0.2s ease;
+}
+
+.pannel p {
+ font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+
+.faq {
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  margin: 5px 0;
+  transition: all 0.5s ease;
+}
+.faq .active {
+  
+  transition: all 0.5s ease;
+}
+
+.pannel.active {
+  display: block;
+  max-height: 500px; /* Adjust this value as needed */
+  padding: 2rem;
 }
 
 
+
+.newsltrimg{
+  background-image: url("../images/illustrations/newsletter.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  height: auto;
+  width: 100%;
+}
