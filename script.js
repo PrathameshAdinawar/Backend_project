@@ -48,3 +48,26 @@ var swiper = new Swiper(".mySwiper", {
     });
   }
   
+  gsap.to(".navbar ",{
+    display:"none",
+    scrollTrigger:{
+      trigger:".s2",
+      scroller:"body",
+      // markers:true,
+      start:"top 15%",
+      end:"top 15%",
+      scrub:0.1
+    }
+  })
+
+  gsap.to(".navbar1",{
+    display:"flex",
+    scrollTrigger:{
+      trigger:".s2",
+      scroller:"body",
+      // markers:true,
+      start:"top 15%",
+      end:"top 15%",
+      scrub:0.1
+    }
+  })

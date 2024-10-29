@@ -13,6 +13,7 @@
 }
 
 .navbar{
+    
     height: 88px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
@@ -21,6 +22,12 @@
     z-index: 999;
     border-bottom: 0.01px solid rgba(255, 255, 255, 0.151);
 }
+.navbar1{
+  display: none;
+  background-color: rgba(255, 255, 255, 0.377);
+  backdrop-filter: blur(5px);
+}
+
 
 
 .btn {
@@ -36,6 +43,7 @@
     
   }
 
+
   .fourth {
     color:black;
     background-image: -webkit-linear-gradient(45deg, #e74c3c 50%, transparent 50%);
@@ -49,6 +57,33 @@
     transition: all 0.88s ease;
     background-position: 0;
   }
+  
+  .btn1 {
+   
+    color: white;
+   border: none;
+   background: black;
+    border-radius: 15px;
+    height: 45px;
+    width: 160px;
+  }
+  .btn1:hover, .btn:focus {
+    color: white;
+  }
+
+  .fourth1 {
+    color:white;
+    background-image: -webkit-linear-gradient(45deg, #e74c3c 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #e74c3c 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.88s ease;
+  }
+  .fourth1:hover {
+    transition: all 0.88s ease;
+    background-position: 0;
+  }
 
   .navbar-toggler-icon{
     color: white;
@@ -58,6 +93,8 @@
     text-decoration: none;
   }
 
+
+
 .Hero{
     height: 80vh;
     width: 100%;
@@ -65,12 +102,17 @@
     overflow-x: hidden;
 }
 
+
+
+
 .swiper {
     
   }
 .swp1{
   width: 100%;
     height: 85vh;
+    border-radius: 0 0 20px 20px;
+    width: 99.5%;
 }
 
 .swiper-slide {
@@ -161,9 +203,9 @@
 }
 
 .s2btn1:hover{
-  background-color: white;
-  color: black;
+  background-color: #e74c3c;
   transition: all .3s ease;
+  border:2px solid #e74c3c;
 }
 
 .s2btn2:hover{
@@ -328,7 +370,7 @@
 
 .active,
 .accordion:hover {
-  background-color: white;
+  background-color: transparent;
 }
 
 .pannel {

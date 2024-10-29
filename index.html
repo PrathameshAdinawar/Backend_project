@@ -31,15 +31,15 @@
 </div>
 
 <body>
-    <nav class="navbar navbar-expand-lg  ">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid d-flex flex-row-reverse">
 
             <div class="d-lg-none">
-                <i class='far fa-user-circle fs-2 text-light'></i>
+                <i class='far fa-user-circle fs-2 text-light' ></i>
             </div>
             <div class="col-lg-4 d-none d-lg-flex justify-content-center ">
                 <div class="d-flex justify-content-evenly gap-5">
-                    <a href="" class="font text-decoration-none mx-auto my-auto"><span><i
+                    <a href="" class="font text-decoration-none mx-auto my-auto" id="login"><span><i
                                 class='far fa-user-circle'></i></span>
                         Login/Register</a>
                     <button type="submit " class="btn fourth font mx-auto my-auto fs-6">
@@ -48,8 +48,7 @@
                 </div>
             </div>
             <div class="col-6 col-lg-4 d-flex justify-content-center">
-                <a class="navbar-brand" href="#"><img src="./images/illustrations/header-logo1.svg" alt=""
-                        class="navimg "></a>
+                <a class="navbar-brand" href="#"><img src="./images/illustrations/header-logo1.svg" alt="" class="navimg "></a>
             </div>
             <div class="d-lg-none">
                 <button class="btn w-100 bg-transparent " type="button" data-bs-toggle="offcanvas"
@@ -57,20 +56,51 @@
                         src="./images/illustrations/hbg.png" alt=""></button>
             </div>
             <div class="col-lg-4  d-lg-inline-flex justify-content-center d-none gap-4 ">
-                <a class="nav-link active font text-light" aria-current="page" href="#">Home</a>
+                <a class="nav-link active font" aria-current="page" href="#">Home</a>
                 <a class="nav-link font" href="#">About Us</a>
                 <a class="nav-link font" href="#">Pricing</a>
-
+                <a class="nav-link font" href="#">Listing</a>
                 <section>
-                    <a class="nav-link dropdown-toggle font" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown link
-                    </a>
-                    <ul class="dropdown-menu font">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                  
+                </section>
+            </div>
+
+
+
+
+        </div>
+    </nav>
+    <nav class="navbar navbar1 navbar-expand-lg ">
+        <div class="container-fluid d-flex flex-row-reverse">
+
+            <div class="d-lg-none">
+                <i class='far fa-user-circle fs-2 text-dark' ></i>
+            </div>
+            <div class="col-lg-4 d-none d-lg-flex justify-content-center ">
+                <div class="d-flex justify-content-evenly gap-5">
+                    <a href="" class="font text-decoration-none mx-auto my-auto text-dark" id="login"><span><i
+                                class='far fa-user-circle'></i></span>
+                        Login/Register</a>
+                    <button type="submit " class="btn1 fourth1 font mx-auto my-auto fs-6">
+                        Add Property <span class="ps-1 ">&nearr;</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4 d-flex justify-content-center">
+                <a class="navbar-brand" href="#"><img src="./images/illustrations/header-logo2.svg" alt="" class="navimg "></a>
+            </div>
+            <div class="d-lg-none">
+                <button class="btn w-100 bg-transparent " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img
+                        src="./images/illustrations/hbg.png" alt=""></button>
+            </div>
+            <div class="col-lg-4  d-lg-inline-flex justify-content-center d-none gap-4 ">
+                <a class="nav-link active font text-dark" aria-current="page" href="#">Home</a>
+                <a class="nav-link font text-dark" href="#">About Us</a>
+                <a class="nav-link font text-dark" href="#">Pricing</a>
+                <a class="nav-link font text-dark" href="#">Listing</a>
+                <section>
+                  
                 </section>
             </div>
 
@@ -80,8 +110,8 @@
         </div>
     </nav>
 
-
     <!-- Hero Page -->
+    <div class="herospace"></div>
     <div class="swiper mySwiper swp1">
         <div class="swiper-wrapper">
 
@@ -596,7 +626,7 @@
                     <input type="email" class="font p-2 w-50" placeholder="Your Email Here">
                     <button type="submit" class="font p-2 s2btn1">Join</button>
                 </div>
-                <h6 class="fw-normal">By clicking Join Now, you agree to our Terms and Conditions.</h6>
+                <h6 class="fw-normal mt-1">By clicking Join Now, you agree to our Terms and Conditions.</h6>
             </div>
             <div class="newsltrimg "></div>
         </div>
@@ -605,12 +635,17 @@
 
 
         <div class="space p-3"></div>
+        <div>
+            
+        </div>
         
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="script.js"></script>
 </body>
 
