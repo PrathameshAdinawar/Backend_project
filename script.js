@@ -138,13 +138,30 @@ links.forEach(link => {
 var swiper = new Swiper(".mySwiper3", {
   slidesPerView: 3,
   spaceBetween: 30,
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  freeMode: true,
+  // navigation: {
+  //   nextEl: ".button-next",
+  //   prevEl: ".button-prev",
+  // },
   pagination: {
-    el: ".swiper-pagination1",
+    el: ".swiper-pagination",
     clickable: true,
   },
-});
+  breakpoints: {
+
+    // When screen width is >= 992px (medium screens like tablets)
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    // When screen width is >= 576px (small screens like mobile portrait)
+    576: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    // When screen width is < 576px (extra small devices)
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+}});
