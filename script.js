@@ -154,6 +154,10 @@ var swiper = new Swiper(".mySwiper3", {
   },
   breakpoints: {
 
+    1200:{
+      slidesPerView:4,
+      spaceBetween:20,
+    },
     // When screen width is >= 992px (medium screens like tablets)
     992: {
       slidesPerView: 3,
