@@ -139,12 +139,17 @@ var swiper = new Swiper(".mySwiper3", {
   slidesPerView: 3,
   spaceBetween: 30,
   freeMode: true,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   // navigation: {
   //   nextEl: ".button-next",
   //   prevEl: ".button-prev",
   // },
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper-pagination1",
     clickable: true,
   },
   breakpoints: {
