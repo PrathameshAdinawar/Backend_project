@@ -48,7 +48,4 @@ This project incorporates knowledge and techniques learned from:
 - ⚙️ **JavaScript**
 - 🖥️ **Eclipse IDE**
 
-
-
-We hope you enjoy exploring and using the Home Renting, Selling, and Buying Website! 🎉
  
